@@ -1,3 +1,7 @@
+# This program prompts the user to enter an integer, calculates the factorial of the entered integer using a recursive function, and then displays the result. 
+# It reads the input, calls the recursive factorial function, stores the result, and prints it. 
+# The recursive function handles base and recursive cases, using the stack to store return addresses and local variables.
+
 .data
      inputPromptMessageForInt: .asciiz "Enter a number to find its factorial: "
      resultFactorialMessage: 	.asciiz "The factorial of the input number is: "
