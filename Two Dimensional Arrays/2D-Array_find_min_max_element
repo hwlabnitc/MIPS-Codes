@@ -1,0 +1,150 @@
+.data 
+newline: .asciiz "\n"
+space: .asciiz " " 
+msg_rows: .asciiz "Enter number of rows :"
+msg_columns: .asciiz "Enter number of columns :"
+msg_input: .asciiz "Enter matrix ( row major form ) : "
+maximum : .asciiz"The maximum element is : "
+minimum : .asciiz"The minimum element is : "
+mat1: .space 100 
+input: .space 100 
+
+.text 	
+main:
+	li $v0, 4
+    	la $a0, msg_rows
+    	syscall
+    
+    	li $v0, 5
+   	 syscall
+    	move $t0, $v0  # $t0 = number of rows
+
+    	li $v0, 4
+    	la $a0, msg_columns
+    	syscall
+
+    	li $v0, 5
+    	syscall
+    	move $t1, $v0  # $t1 = number of columns
+
+    	li $v0, 4
+    	la $a0, msg_input
+    	syscall
+ 
+   	li $v0, 8             # syscall for read_str
+    	la $a0, input     # Load address of input buffer
+    	li $a1, 100         # Maximum length
+	syscall
+   
+    	la $t2, input
+    	la $t3, mat1
+	
+	li $t5, 0 
+	
+    	# t2 - address of input string 
+    	# t3 - address of matrix 
+   	# t4 - used to iterate through string
+    	# t5 - used to calculate number 
+    	
+input_loop:
+    	lb $t4, 0($t2)
+    	beq $t4, 32, store 
+
+# when a space is detected add the number calculated to the array and continue
+
+   	beq $t4, $zero , end_input
+   	
+   	#In ASCII encoding, the decimal value 32 corresponds to the space character (' ')
+   	#This loop exist to calculate numbers that have more than one digit , since our input is a string 
+	# we need to iterate and add the characters until we detect a space 
+	
+    	sub $t6 , $t4, 48 # converts character to integer 
+    	
+    	# for calculating the number
+    	mul $t5, $t5, 10  
+    	add $t5, $t5, $t6
+    	addi $t2, $t2, 1
+    	
+    	j input_loop  
+store:		
+    	sw $t5, 0($t3) #store the number obtained in the 2D-array 
+    
+    	addi $t3, $t3, 4 #increment the address to next memory block 
+    	li $t5, 0
+   
+   	add $t2 , $t2 , 1  #increment the index of string
+    	j input_loop      #loop back to the input to continue iteration of string
+  
+end_input : 	
+	
+	li $t6 , 0         # Initialize row index
+	la $t8, mat1       # Load address of array for printing 
+	
+	li $v0, 4 	
+    	la $a0, newline 
+    	syscall
+
+find_min_max:
+    	li $t3 , 0          # Initialize max element to 0
+    	li $t2 , 0x7fffffff
+    	li $t6 , 0          # Initialize row index to 0
+	la $a0 , mat1
+ 
+row_loop:
+    beq $t6, $t0 , end  # If all rows have been checked, exit
+
+    li $t7, 0          # Initialize column index to 0
+
+column_loop:
+   	beq $t7, $t1 , end_column_loop  # If all columns have been checked, move to next row
+
+    	lw $t8, 0($a0)     # Load current element from array
+
+    	# Compare current element with max element and the min element 
+    	bgt $t8, $t3, update_max # if element greater than max element , update max 
+	min : 
+	blt $t8 , $t2 , update_min  # if element smaller than min element , update min 
+
+	increment  :
+    	addi $a0, $a0, 4   # Move to next column
+    	addi $t7, $t7, 1   # Increment column index
+    j column_loop
+
+update_max:
+    move $t3 , $t8      # Update max element
+    j min 	       # control goes back to checking for the conditional statement of  min element 
+
+update_min:
+    move $t2 , $t8        # Update min element
+    j increment           # control goes back to incrementing the looping values
+    
+end_column_loop:
+    addi $t6, $t6, 1   # Increment row index
+    j row_loop
+    
+end : 
+	li $v0 , 4 
+	la $a0 , maximum 
+	syscall 
+	
+	li $v0 , 1 
+	move $a0 , $t3 	# printing the maximum element 
+	syscall 
+	
+	li $v0 , 4 
+	la $a0 , newline 
+	syscall 
+	
+	li $v0 , 4 
+	la $a0 , minimum # printing the minimum element 
+	syscall 
+	
+	li $v0 , 1 
+	move $a0 , $t2 
+	syscall
+
+	li $v0 , 10 
+	syscall
+
+
+
