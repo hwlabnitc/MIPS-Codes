@@ -26,6 +26,8 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Taking Input | [Code](https://github.com/hwlab-csed/MIPS-Codes/blob/main/Two%20Dimensional%20Arrays/Two_Dimensional_Arrays_Sample_Q1_Taking_Input_For_Matrix.asm) |  |
 |  | Printing a Matrix | [Code](https://github.com/hwlab-csed/MIPS-Codes/blob/main/Two%20Dimensional%20Arrays/Two_Dimensional_Arrays_Sample_Q2_Printing_Matrix.asm) |  |
 |  | Sum of Two Matrices | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Two%20Dimensional%20Arrays/Two_Dimensional_Arrays_Practice_Q1_sum_of_two_matrices.asm) |  |
+|  | Minimum and maximum element in a 2D array | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Two%20Dimensional%20Arrays/2D-Array_find_min_max_element) | [Video](https://www.youtube.com/watch?v=8uh3Xrm0FYk&list=PLJGMNIXnU1SLUNfqTxjIEp-oW4wWtr5Mc&index=3) |
+|  | string input print | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Two%20Dimensional%20Arrays/2D-Array_find_min_max_element) |  |
 | **String Handling (advanced)** | | | [Video](https://youtu.be/R5UB4CnZo7Y) |
 |  | Traversal of Strings | [Code](https://github.com/hwlab-csed/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings%20Advanced_Sample%20Codes_1.asm) | [Video](https://youtu.be/HiqgMrXHeyQ) |
 |  | Length of String | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q1.asm) | [Video](https://youtu.be/GWlaAK4VdWo) |
@@ -38,5 +40,10 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) |  |  
 |  | Maximum of four numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Max%20of%204%20numbers%20with%20function%20calling%20Q3.asm) |  |  
 |  | Factorial of a number | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Calculate%20factorial%20iteratively%20Q4.asm) |  |
+| **Recursion Using JAL** | | |  |
+|  | Binary search with recursion  | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Binary%20search%20with%20recursion%20Q4.asm) |  |  
+|  | Factorial recursion | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Factorial%20recursion%20Q3.asm) |  |  
+|  | Find exponent recursively | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Find%20exponent%20recursively%20Q2.asm) |  |  
+|  | Sum of first N natural numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Sum%20of%20first%20N%20natural%20numbers%20recursively%20Q1.asm) |  |
 
 ---
