@@ -35,9 +35,9 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
 
 | **Procedure Calling** | | |  |
-|  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  
-|  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) |  
-|  | Maximum of four numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Max%20of%204%20numbers%20with%20function%20calling%20Q3.asm) |  
+|  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  |  
+|  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) |  |  
+|  | Maximum of four numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Max%20of%204%20numbers%20with%20function%20calling%20Q3.asm) |  |  
 |  | Factorial of a number | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Calculate%20factorial%20iteratively%20Q4.asm) |  |
 
 ---
