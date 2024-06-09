@@ -37,12 +37,12 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
 | **Procedure Calling** | | |  |
 |  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  |  
-|  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) |  |  
+|  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) | [Video](https://youtu.be/7E7uyIC0oTw?si=9Q69iTm_x7MJe6Ul) |  
 |  | Maximum of four numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Max%20of%204%20numbers%20with%20function%20calling%20Q3.asm) |  |  
 |  | Factorial of a number | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Calculate%20factorial%20iteratively%20Q4.asm) |  |
 | **Recursion Using JAL** | | |  |
 |  | Binary search with recursion  | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Binary%20search%20with%20recursion%20Q4.asm) |  |  
-|  | Factorial recursion | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Factorial%20recursion%20Q3.asm) |  |  
+|  | Factorial recursion | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Factorial%20recursion%20Q3.asm) | [Video](https://youtu.be/sJ55rgXjq2U?si=leQ5dD0YZz_jID_N) |  
 |  | Find exponent recursively | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Find%20exponent%20recursively%20Q2.asm) |  |  
 |  | Sum of first N natural numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Recursion%20Using%20JAL/Sum%20of%20first%20N%20natural%20numbers%20recursively%20Q1.asm) |  |
 
