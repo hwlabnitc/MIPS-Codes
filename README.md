@@ -33,7 +33,6 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Concatenation of strings | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q3.asm) | [Video](https://youtu.be/SDeHKgsCJE8) |
 | **Loops** | | |  |
 |  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
-
 | **Procedure Calling** | | |  |
 |  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  |  
 |  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) |  |  
