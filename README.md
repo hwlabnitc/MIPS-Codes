@@ -31,8 +31,7 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Length of String | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q1.asm) | [Video](https://youtu.be/GWlaAK4VdWo) |
 |  | Palindrome Check | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q2.asm) | [Video](https://youtu.be/7mD-2DHDjEc) |
 |  | Concatenation of strings | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q3.asm) | [Video](https://youtu.be/SDeHKgsCJE8) |
-
 | **Loops** | | |  |
-|  | Lower-case to Upper-Case | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) | |
+|  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
 
 ---
