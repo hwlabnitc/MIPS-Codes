@@ -35,6 +35,7 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Concatenation of strings | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q3.asm) | [Video](https://youtu.be/SDeHKgsCJE8) |
 |  | Case switching of strings | [Code](https://github.com/NailaFathima/MIPS-Codes/blob/main/Strings%20Advanced/CASE%20SWITCHING%20OF%20STRING.asm) | [Video](https://www.youtube.com/watch?v=113-GzConi0&list=PLJGMNIXnU1SLUNfqTxjIEp-oW4wWtr5Mc&index=2) |
 | **Loops** | | |  |
+|  | Perfect Numbers | [Code](https://github.com/NailaFathima/MIPS-Codes/blob/main/Loops/PERFECT%20NUMBERS.asm) | [Video](https://www.youtube.com/watch?v=OGR3OVWvYhc&list=PLJGMNIXnU1SLUNfqTxjIEp-oW4wWtr5Mc&index=1&t=44s) |
 |  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
 | **Procedure Calling** | | |  |
 |  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  |  
