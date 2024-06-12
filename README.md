@@ -33,10 +33,10 @@ This is a repository that contains codes as part of the Hardware Lab course offe
 |  | Length of String | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q1.asm) | [Video](https://youtu.be/GWlaAK4VdWo) |
 |  | Palindrome Check | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q2.asm) | [Video](https://youtu.be/7mD-2DHDjEc) |
 |  | Concatenation of strings | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Strings%20Advanced/MIPS_Strings_Advanced_Practice_Q3.asm) | [Video](https://youtu.be/SDeHKgsCJE8) |
-|  | Case switching of string | [Code]() | [Video](https://youtu.be/113-GzConi0?si=lzV6hS73lVOix9Lu) |
+|  | Case switching of string | | [Video](https://youtu.be/113-GzConi0?si=lzV6hS73lVOix9Lu) |
 | **Loops** | | |  |
 |  | LowerCase to UpperCase | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Loops/lower%20to%20uppercase.asm) |  |
-|  | Perfect numbers | [Code]() | [Video](https://youtu.be/OGR3OVWvYhc?si=1d4v7sZ8F_NfqUGJ) |  
+|  | Perfect numbers |  | [Video](https://youtu.be/OGR3OVWvYhc?si=1d4v7sZ8F_NfqUGJ) |  
 | **Procedure Calling** | | |  |
 |  | Sum of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Sum%20of%202%20numbers%20Q1.asm) |  |  
 |  | Product of two numbers | [Code](https://github.com/hwlabnitc/MIPS-Codes/blob/main/Procedure%20Calling/Product%20of%20two%20numbers%20Q2.asm) | [Video](https://youtu.be/7E7uyIC0oTw?si=9Q69iTm_x7MJe6Ul) |  
